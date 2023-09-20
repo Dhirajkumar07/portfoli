@@ -1,0 +1,39 @@
+
+.wether-column{
+    height: 100vh;
+}
+.wether-box{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -5px rgb(190, 190, 190);
+    transition: 1s;
+}
+.wether-input{
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 13px -5px rgb(255, 255, 255);
+}
+.wether-animation-box1{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px  20px 20px 10px rgb(255, 255, 255);
+    background-color: orange;
+    animation: rounded  5s ease-in-out infinite alternate both;
+}
+@keyframes rounded{
+       0%{
+        transform: scale(0);
+       }
+       100%{
+        transform: scale(3);
+       }
+}

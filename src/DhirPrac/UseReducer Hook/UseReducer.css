@@ -1,0 +1,29 @@
+.Reducer_column{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -5px black;
+}
+.Reducer_heading{
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 2rem;
+}
+.Reducer_button{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0px 30px;
+    font-size: 2rem;
+    transition: 0.5s;
+    outline: 1px solid blue;
+
+}
+.Reducer_button:hover{
+    background-color: rgb(166, 180, 226);
+    color: blue;
+    outline: 1px solid blue;
+
+}

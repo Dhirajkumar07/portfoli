@@ -1,0 +1,86 @@
+/* ------------------------ NAVBAR and HOME section CSS ----------------------------- */
+body{
+    background-color: white !important;
+}
+.tnav{
+    background-color: transparent !important;
+}
+.top_nav{
+    box-shadow: 5px 5px 15px -5px black;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.navbarlink{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: gray;
+
+}
+.navbarlink:hover{
+    color:rgb(0, 110, 255);
+}
+.active{
+    font-weight: bold;
+    border-bottom: 1px solid gray;
+    color: rgb(0, 0, 0);
+}
+#brand{
+    font-size: 2.2rem;
+    color:blue;
+}
+#heading_grow{
+    font-size: 2.8rem;
+}
+#strong{
+    color: blue;
+}
+.para{
+    font-size: 1.3rem;
+    color: rgb(64, 55, 55);
+}
+.button{
+    padding: 5px 15px;
+    font-weight: bold;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: white;
+    color: blue;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: rgb(77, 77, 255);
+    color: white;
+}
+.animated{
+    box-shadow: 2px 2px 13px -5px black;
+    border-radius: 10px;
+    animation: up-down 1.3s ease-in-out  infinite alternate-reverse both;
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+/* ------------------------ SERVICE section CSS ----------------------------- */
+.service_header{
+    color: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:1px  1px 1px rgb(0, 0, 0);
+}
+.service_card{
+    box-shadow: 5px 5px 15px -5px black;
+    transition: 0.8s;
+}
+.service_card:hover{
+    transform: scale(1.1);
+}
+/* ------------------------ CONTACT section CSS ----------------------------- */
+.form_box{
+   
+    padding: 10px;
+}
+

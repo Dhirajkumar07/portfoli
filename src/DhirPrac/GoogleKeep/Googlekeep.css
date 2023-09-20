@@ -1,0 +1,34 @@
+*{margin: 0; padding: 0%; box-sizing: border-box;}
+#Googlekeep_top_heading{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: monospace;
+    background-color: black;
+    color: cyan;
+    padding: 5px;
+}
+#add_button:hover{
+     background-color: yellow!important;
+}
+#del_button:hover{
+     background-color: red !important;
+     color: white;
+}
+@media screen and (max-width:375px){
+     #GKMD{
+          align-items: center;
+          padding: 10px !important;
+          width: 300px !important;
+
+     }
+     #main_note_div{
+          width: 100%;
+          display: flex !important;
+          flex-direction: column;
+          justify-content: center !important;
+          align-items: center;
+          padding: 10px !important;
+     }
+}

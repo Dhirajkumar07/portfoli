@@ -1,0 +1,37 @@
+.rsheading{
+    box-shadow: 5px 5px 15px -5px black;
+    border-radius: 10px;
+    background-color: rgb(255, 227, 42);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    position: sticky;
+    top: 0%;
+}
+
+.resitem{
+    box-shadow: 5px 5px 15px -5px black;
+}
+.rs{
+    box-shadow: 5px 5px 15px -5px black;
+    border-radius: 10px;
+}
+.ItemPrise{
+    color: green;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px){
+    .restronav{
+        position: fixed;
+        margin: 0%;
+        top: 0%;
+    }
+    .resitem{
+        margin: 2px;
+    }
+    .rsheading{
+        display: none;
+    }
+    
+}
