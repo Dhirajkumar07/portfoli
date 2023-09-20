@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfoli/static/css/main.8f0f1190.css",
+    "main.js": "/portfoli/static/js/main.86e0e570.js",
+    "static/media/homepage.gif": "/portfoli/static/media/homepage.2380e25cffc0ddbee637.gif",
+    "static/media/mernstack-img.gif": "/portfoli/static/media/mernstack-img.4b97a659a4915266d1fd.gif",
+    "static/media/Film_Making.jpg": "/portfoli/static/media/Film_Making.6d687ebc479f0eb4b8c8.jpg",
+    "static/media/Programing.jpg": "/portfoli/static/media/Programing.9b27cb8713a4c87888ef.jpg",
+    "static/media/Content_writing.jpg": "/portfoli/static/media/Content_writing.b27044485c039eb63d14.jpg",
+    "static/media/marketing.jpg": "/portfoli/static/media/marketing.f5c39ed1b881711e90dd.jpg",
+    "static/media/seo.jpeg": "/portfoli/static/media/seo.cec89bb28241b98a2b93.jpeg",
+    "static/media/Digital+marketing.jpg": "/portfoli/static/media/Digital+marketing.7c157fd7cb71e20ba934.jpg",
+    "static/media/Testing.jpg": "/portfoli/static/media/Testing.a4e65da26e2485e264d7.jpg",
+    "static/media/web_development.jpg": "/portfoli/static/media/web_development.cbdb0aa80a16d894d0fb.jpg",
+    "static/media/software_development.webp": "/portfoli/static/media/software_development.0b7681e861454ce8cbb3.webp",
+    "index.html": "/portfoli/index.html",
+    "main.8f0f1190.css.map": "/portfoli/static/css/main.8f0f1190.css.map",
+    "main.86e0e570.js.map": "/portfoli/static/js/main.86e0e570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f0f1190.css",
+    "static/js/main.86e0e570.js"
+  ]
+}
